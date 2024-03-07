@@ -12,7 +12,7 @@ import lombok.NoArgsConstructor;
 @Getter
 @Entity
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
-public class Board extends TimeEntity{
+public class Board extends TimeEntity {
 
     @Id @GeneratedValue
     private Long id;

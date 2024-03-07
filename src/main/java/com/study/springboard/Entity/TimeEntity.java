@@ -17,7 +17,7 @@ public class TimeEntity {
 
     @CreatedDate // Entity가 생성되어 저장될 때 시간이 자동 저장
     @Column(updatable = false) // 해당 어노테이션이 적용된 필드는 update 쿼리에서 제외
-    private String createdDate;
+    private LocalDateTime createdDate;
 
     @LastModifiedDate// 조회한 Entity의 값을 변경할 때 시간이 자동 저장
     private LocalDateTime modifiedDate; // 수정일
